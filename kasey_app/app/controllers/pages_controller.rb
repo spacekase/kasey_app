@@ -9,3 +9,9 @@ class PagesController < ApplicationController
 			render('profile')
 	end 
 end
+
+class PagesController < ApplicationController
+	def listings
+			render('listings')
+	end 
+end
